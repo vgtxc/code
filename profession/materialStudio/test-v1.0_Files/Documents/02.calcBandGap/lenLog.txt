@@ -1,0 +1,110 @@
+-----------------------------------------------------
+./Si\Si-95.0Len.xsd     ---->    5.159
+
+./Si\Si-95.5Len.xsd     ---->    5.186
+
+./Si\Si-96.0Len.xsd     ---->    5.213
+
+./Si\Si-96.5Len.xsd     ---->    5.24
+
+./Si\Si-97.0Len.xsd     ---->    5.267
+
+./Si\Si-97.5Len.xsd     ---->    5.294
+
+./Si\Si-98.0Len.xsd     ---->    5.321
+
+./Si\Si-98.5Len.xsd     ---->    5.349
+
+./Si\Si-99.0Len.xsd     ---->    5.376
+
+./Si\Si-99.5Len.xsd     ---->    5.403
+
+./Si\Si-100.0Len.xsd    ---->    5.43
+
+./Si\Si-100.5Len.xsd    ---->    5.457
+
+./Si\Si-101.0Len.xsd    ---->    5.484
+
+./Si\Si-101.5Len.xsd    ---->    5.511
+
+./Si\Si-102.0Len.xsd    ---->    5.539
+
+./Si\Si-102.5Len.xsd    ---->    5.566
+
+./Si\Si-103.0Len.xsd    ---->    5.593
+
+./Si\Si-103.5Len.xsd    ---->    5.62
+
+./Si\Si-104.0Len.xsd    ---->    5.647
+
+./Si\Si-104.5Len.xsd    ---->    5.674
+
+./Si\Si-105.0Len.xsd    ---->    5.701
+
+
+------------------------------------------------
+
+
+
+./GaN\GaN-95.0Len.xsd   ---->    3.03
+./GaN\GaN-95.0Len.xsd   ---->    4.926
+
+./GaN\GaN-95.5Len.xsd   ---->    3.045
+./GaN\GaN-95.5Len.xsd   ---->    4.952
+
+./GaN\GaN-96.0Len.xsd   ---->    3.061
+./GaN\GaN-96.0Len.xsd   ---->    4.978
+
+./GaN\GaN-96.5Len.xsd   ---->    3.077
+./GaN\GaN-96.5Len.xsd   ---->    5.004
+
+./GaN\GaN-97.0Len.xsd   ---->    3.093
+./GaN\GaN-97.0Len.xsd   ---->    5.029
+
+./GaN\GaN-97.5Len.xsd   ---->    3.109
+./GaN\GaN-97.5Len.xsd   ---->    5.055
+
+./GaN\GaN-98.0Len.xsd   ---->    3.125
+./GaN\GaN-98.0Len.xsd   ---->    5.081
+
+./GaN\GaN-98.5Len.xsd   ---->    3.141
+./GaN\GaN-98.5Len.xsd   ---->    5.107
+
+./GaN\GaN-99.0Len.xsd   ---->    3.157
+./GaN\GaN-99.0Len.xsd   ---->    5.133
+
+./GaN\GaN-99.5Len.xsd   ---->    3.173
+./GaN\GaN-99.5Len.xsd   ---->    5.159
+
+./GaN\GaN-100.0Len.xsd  ---->    3.189
+./GaN\GaN-100.0Len.xsd  ---->    5.185
+
+./GaN\GaN-100.5Len.xsd  ---->    3.205
+./GaN\GaN-100.5Len.xsd  ---->    5.211
+
+./GaN\GaN-101.0Len.xsd  ---->    3.221
+./GaN\GaN-101.0Len.xsd  ---->    5.237
+
+./GaN\GaN-101.5Len.xsd  ---->    3.237
+./GaN\GaN-101.5Len.xsd  ---->    5.263
+
+./GaN\GaN-102.0Len.xsd  ---->    3.253
+./GaN\GaN-102.0Len.xsd  ---->    5.289
+
+./GaN\GaN-102.5Len.xsd  ---->    3.269
+./GaN\GaN-102.5Len.xsd  ---->    5.315
+
+./GaN\GaN-103.0Len.xsd  ---->    3.285
+./GaN\GaN-103.0Len.xsd  ---->    5.341
+
+./GaN\GaN-103.5Len.xsd  ---->    3.301
+./GaN\GaN-103.5Len.xsd  ---->    5.366
+
+./GaN\GaN-104.0Len.xsd  ---->    3.317
+./GaN\GaN-104.0Len.xsd  ---->    5.392
+
+./GaN\GaN-104.5Len.xsd  ---->    3.333
+./GaN\GaN-104.5Len.xsd  ---->    5.418
+
+./GaN\GaN-105.0Len.xsd  ---->    3.348
+./GaN\GaN-105.0Len.xsd  ---->    5.444

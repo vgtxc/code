@@ -1,0 +1,27 @@
+//lastEdit=>2023.09.14-23:03
+//cargo命令
+as(sdf)sdfkj[fsdf]sldj{sdfs}
+# asjdlfa
+@ asdla
+
+创建项目
+    cargo new <projectName>
+    // projectName必须使用蛇形命名法
+
+初始化一个文件夹为项目
+    cargo init <dirName>
+
+项目中添加第三方库源文件
+    cargo add <packName>
+
+项目中安装生成第三方库的二进制文件
+    cargo install <packName>
+
+编译项目
+    cargo build <projectName>
+
+检查项目
+    cargo cheak <projectName>
+
+运行项目
+    cargo run <fileName>

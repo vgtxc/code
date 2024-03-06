@@ -1,0 +1,25 @@
+Calculate                     energy  
+Scf_iterations                0
+use_old_density_and_keep      on
+Max_memory                    2048
+File_usage                    smart
+empty_bands                   12
+
+Symmetry                      on
+
+# Electronic parameters
+Spin_polarization             restricted
+Charge                        0
+Basis                         dnd
+Pseudopotential               none
+Functional                    blyp
+Aux_density                   hexadecapole
+Integration_grid              medium
+Occupation                    fermi
+Cutoff_Global                 4.2000 angstrom
+
+# Kpoint definition file: 
+Kpoints                       file     
+GaN-099.0Len_BandStr.kpoints
+
+plot_dos                      on

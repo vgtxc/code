@@ -1,0 +1,17 @@
+====================================================
+                  DMol3 Run Status                  
+====================================================
+ 
+Job Name            :        GaN-103.0Len_BandStr
+Task                :        Property
+Basis               :        dnd                 
+Atom_Rcut           :        4.200 Angstrom
+Functional          :        blyp                
+Harris              :        off  
+Integration Grid    :        medium              
+Kpoints             :        GaN-103.0Len_BandStr.kpoints
+Occupation          :        fermi     
+Pseudopotential     :        none                
+Property            :        Band/DOS printout   
+ 
+====================================================

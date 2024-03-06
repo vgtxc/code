@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="latin1"?>
+<EXTENSION VERSION="20.1">
+<LOGICS>
+<LOGICITEM NAME="AmorphousBuilder">
+	<STATE NAME="AmorphousBuilder" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderClassicalEnergy">
+	<STATE NAME="ClassicalEnergy - Classical Energy Server" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderConfigBiasMonteCarlo">
+	<STATE NAME="SorptionConfigBiasMonteCarlo" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderConfinedLayer">
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderConstruction">
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderCreateLattice">
+	<STATE NAME="CreateLattice" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderFindTorsions">
+	<STATE NAME="Find Torsions" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderIntraMolecularEnergy">
+	<STATE NAME="ClassicalEnergy - Classical Energy Server" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderJobHandler">
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderJobLauncher">
+	<STATE NAME="SMXAmorphousBuilder.AmorphousBuilderJobLauncher" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderMinimizer">
+	<STATE NAME="Minimize" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderMinimizerEnergy">
+	<STATE NAME="ClassicalEnergy - Classical Energy Server" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderPacking">
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderServer">
+	<STATE NAME="AmorphousBuilderServer" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderSystem">
+	<STATE NAME="SorptionSystem" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderTrjMinimizer">
+	<STATE NAME="ForciteTrjHelper" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="BondIncrement">
+	<STATE NAME="BondIncrement" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="BondOrder">
+	<STATE NAME="UFFBondOrder" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="ChargeEditor">
+	<STATE NAME="SMXCharge.ChargeEditor" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="ChargeGasteiger">
+	<STATE NAME="SMXCharge.ChargeGasteiger" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="ChargeGroups">
+	<STATE NAME="Charge Groups" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="ChargeQEq">
+	<STATE NAME="SMXCharge.ChargeQEq" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="ForcefieldChooser">
+	<STATE NAME="ForciteForcefieldChooser" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="ForcefieldPreparation">
+	<STATE NAME="Forcefield preparation" VERSION="20.1">
+	<PROPERTIES>
+	<PROPERTY NAME="ChargeAssignment">
+	<VALUE>1</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="OFFAtomTyping">
+	<STATE NAME="OFFAtomTyping" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="PotentialAtomTyping">
+	<STATE NAME="PotentialAtomTyping" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="RampDensity">
+	<STATE NAME="Ramp Density" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="RampDensityDynamics">
+	<STATE NAME="Dynamics" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="RampDensityMinimize">
+	<STATE NAME="Minimize" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="RestrainRings">
+	<STATE NAME="RestrainRings" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="RestrainRingsMinimize">
+	<STATE NAME="Minimize" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+</LOGICS>
+</EXTENSION>

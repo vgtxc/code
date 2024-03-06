@@ -1,0 +1,17 @@
+====================================================
+                  DMol3 Run Status                  
+====================================================
+ 
+Job Name            :        GaN-band_100Len_GGA-BP_
+Task                :        Property
+Basis               :        dnd                 
+Atom_Rcut           :        4.200 Angstrom
+Functional          :        bp                  
+Harris              :        off  
+Integration Grid    :        medium              
+Kpoints             :        GaN-band_100Len_GGA-BP_.kpoints
+Occupation          :        fermi     
+Pseudopotential     :        none                
+Property            :        none                
+ 
+====================================================

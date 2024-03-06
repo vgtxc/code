@@ -1,0 +1,35 @@
+Materials Studio SDF calculation
+TCVAMP81A 
+
+  8  0  0  0  0  0              1 V2000
+    0.0000    0.0000    0.0000 Si  0  0
+    0.0000    2.7015    2.7015 Si  0  0
+    2.7015    0.0000    2.7015 Si  0  0
+    2.7015    2.7015    0.0000 Si  0  0
+   -1.3507    1.3507   -1.3507 Si  0  0
+    1.3507    1.3507    1.3507 Si  0  0
+    1.3507   -1.3507   -1.3507 Si  0  0
+   -1.3507   -1.3507    1.3507 Si  0  0
+M  END
+
+> <DENSITY OF STATES FERMI>
+BIOVIA, TYPE=DOUBLE, VERSION=1                                                  
+     0.00000000
+
+> <BAND GAP>
+BIOVIA, TYPE=DOUBLE, VERSION=1                                                  
+     0.09837500
+
+> <TOTAL ENERGY>
+BIOVIA, TYPE=DOUBLE, VERSION=1                                                  
+ -2316.23512364
+
+> <BINDING ENERGY>
+BIOVIA, TYPE=DOUBLE, VERSION=1                                                  
+    -1.16747653
+
+> <OPERATION STATUS>
+BIOVIA, TYPE=STATUS, VERSION=1                                                  
+SUCCESS
+
+$$$$

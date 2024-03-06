@@ -1,0 +1,297 @@
+ 
+     ===============================================================
+     Materials Studio DMol^3 version 2020            
+     compiled on Oct 17 2019 19:55:04
+     ===============================================================
+ 
+     ===============================================================
+     Density Functional Theory Electronic Structure Program
+     Copyright (c) 2019, Dassault Systemes, all rights reserved.
+     Cite work using this program as: 
+     B. Delley, J. Chem. Phys. 92,  508  (1990).
+     B. Delley, J. Chem. Phys. 113, 7756 (2000).
+     DMol^3 is available as part of Materials Studio.
+     ===============================================================
+ 
+ 
+DATE:     Apr 16 17:39:08 2023
+ 
+Job started on host VGTPC
+
+This run uses   12 processors
+
+Message: License checkout of MS_dmol successful
+Message: License checkout of MS_dsolid successful
+ 
+Basis set is read from file:
+D:\sw\biovia\Materials Studio 20.1 x64 Server\share\Resources\Quantum\DMol3\BASFILE_v3.5
+
+ 
+ parallel run with  12 processors
+ 
+ no INCOOR file: try ZMAT
+ no ZMAT file: try CAR
+
+Geometry is read from file: 100Len_LDA-PWC.car                                                                                                                                                                                                                                              
+
+INCOOR, atomic coordinates in au (for archive):
+______________________________________________________________________>8
+
+$cell vectors
+              6.00932907747962    0.00000000000000    0.00000000000000
+             -3.00466453873981    5.20423164079785    0.00000000000000
+              0.00000000000000    0.00000000000000    9.78878132746680
+$coordinates
+Ga            0.00000000000000    3.46948776048842    9.77981196540220
+N             0.00000000000000    3.46948776048842    3.67976235986465
+Ga            3.00466453873981    1.73474388024421    4.88542130166880
+N             3.00466453873981    1.73474388024421    8.57415302359805
+$end
+______________________________________________________________________>8
+
+
+N_atoms =    4     N_atom_types =  2
+
+
+INPUT_DMOL keywords (for archive):
+______________________________________________________________________>8
+
+#Warning: no global confinement specs in BASFILE
+                                                                                                                                    <--
+# Task parameters                                                                                                                   <--
+Calculate                     optimize                                                                                              <--
+Opt_energy_convergence        2.0000e-05                                                                                            <--
+Opt_gradient_convergence      4.0000e-03 A                                                                                          <--
+Opt_displacement_convergence  5.0000e-03 A                                                                                          <--
+Opt_iterations                50                                                                                                    <--
+Opt_max_displacement          0.3000 A                                                                                              <--
+Symmetry                      on                                                                                                    <--
+Max_memory                    4048                                                                                                  <--
+File_usage                    smart                                                                                                 <--
+Scf_density_convergence       1.000000e-05                                                                                          <--
+Scf_charge_mixing             2.000000e-01                                                                                          <--
+Scf_diis                      6 pulay                                                                                               <--
+Scf_iterations                50                                                                                                    <--
+                                                                                                                                    <--
+# Electronic parameters                                                                                                             <--
+Spin_polarization             restricted                                                                                            <--
+Charge                        0                                                                                                     <--
+Basis                         dnd                                                                                                   <--
+Pseudopotential               none                                                                                                  <--
+Functional                    pwc                                                                                                   <--
+Harris                        off                                                                                                   <--
+Aux_density                   dipole                                                                                                <--
+Integration_grid              medium                                                                                                <--
+Occupation                    fermi                                                                                                 <--
+Cutoff_Global                 4.2000 angstrom                                                                                       <--
+                                                                                                                                    <--
+# Kpoint definition file (intervals/offset):                                                                                        <--
+Kpoints                       file     5 5 2 0.0000 0.0000 0.0000                                                                   <--
+100Len_LDA-PWC.kpoints                                                                                                              
+                                                                                                                                    <--
+# Calculated properties                                                                                                             <--
+______________________________________________________________________>8
+
+
+Publications of specific relevance to this calculation:
+
+Density functional:
+ local functional PWC: Perdew Wang: Phys. Rev. B 45, 13244 (1992)
+
+
+ The Generation and Use of Delocalized Internal Coordinates in Geometry optimization; 
+ Baker Kessi Delley: J. Chem. Phys., 105, 192 (1996) 
+ Andzelm Fitzgerald King-Smith: Chem. Phys. Lett., 335, 321 (2001)
+
+Fast Calculation of Electrostatics in Crystals and Large Molecules;
+ Delley: J. Phys. Chem. 100, 6107 (1996)
+
+Parallel eigenvalue solution:
+Parallel solution of partial symmetric eigenvalue problems from electronic structure calculations:
+Auckenthaler, Blum, Bungartz, et al.: Parallel Computing 37, 783 (2011)
+
+ 
+Calculation is Spin_restricted
+ 
+ 
+
+The point group of the crystal is:
+ hexagonal of order 12
+ without inversion symmetry
+
+Note: C3 point group operation found: mesh 3
+
+
+Lattice:
+ translation vector [a0]    1    6.009329077    0.000000000    0.000000000
+ translation vector [a0]    2   -3.004664539    5.204231641    0.000000000
+ translation vector [a0]    3    0.000000000    0.000000000    9.788781327
+Cell volume          306.134 a0^3
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ga            0.000000            1.835974            5.175254
+            2    N             0.000000            1.835974            1.947246
+            3    Ga            1.590000            0.917987            2.585254
+            4    N             1.590000            0.917987            4.537246
+          ----------------------------------------------------------------------
+
+  
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :       9
+ There are :            9  degrees of freedom
+ There are likely:     20  primitive internals
+
+Nitrogen     nbas=  1, z=   7, nrfn=  7, rcut=  7.94, e_ref= -0.112148 Ha
+                                  rcore=  0.00  zval=   7.00   7.00
+   n=1  L=0  occ= 2.00 e=     -14.007324Ha      -381.1588eV
+   n=2  L=0  occ= 2.00 e=      -0.673226Ha       -18.3194eV
+   n=2  L=1  occ= 3.00 e=      -0.263201Ha        -7.1621eV
+   n=2  L=0  occ= 0.00 e=      -1.795621Ha       -48.8613eV
+   n=2  L=1  occ= 0.00 e=      -1.382600Ha       -37.6225eV
+   n=3  L=2  occ= 0.00 e=      -2.722221Ha       -74.0754eV
+   n=3  L=2  occ= 0.00 e=      -1.388696Ha       -37.7883eV  eliminated
+Gallium      nbas=  2, z=  31, nrfn= 11, rcut=  7.94, e_ref= -0.017566 Ha
+                                  rcore=  0.00  zval=  31.00  31.00
+   n=1  L=0  occ= 2.00 e=    -370.140878Ha    -10072.0501eV
+   n=2  L=0  occ= 2.00 e=     -45.171861Ha     -1229.1894eV
+   n=2  L=1  occ= 6.00 e=     -40.064235Ha     -1090.2038eV
+   n=3  L=0  occ= 2.00 e=      -5.212339Ha      -141.8350eV
+   n=3  L=1  occ= 6.00 e=      -3.555360Ha       -96.7463eV
+   n=3  L=2  occ=10.00 e=      -0.707212Ha       -19.2442eV
+   n=4  L=0  occ= 2.00 e=      -0.305391Ha        -8.3101eV
+   n=4  L=1  occ= 1.00 e=      -0.070624Ha        -1.9218eV
+   n=4  L=0  occ= 0.00 e=      -0.955939Ha       -26.0124eV
+   n=4  L=1  occ= 0.00 e=      -0.659042Ha       -17.9334eV
+   n=4  L=2  occ= 0.00 e=      -0.280404Ha        -7.6302eV
+
+Kpoints mesh:   5   5   2    0  0  0    0  1      50
+
+Parameters for generating k-points:   5   5   2        0.00      0.00      0.00       50
+Total number of symmetry-unique k points:       5
+Total number of symmetry-unique tetrahedra:      15
+
+
+Symmetry orbitals C1                            
+    n  norb    representation
+    1    82        a    
+  total number of valence orbitals:     82
+
+ cell charge=              0.000000   active electron number      76.0
+ (without charge=              76.0 )
+ 
+
+ real array elements, matrices vectors etc:      10.8 MB 
+ integer arrays                           :       0.1 MB 
+ min recommended for all-incl workspace   :      14.5 MB 
+Total memory allocated for arrays         :      60.9 MB 
+Memory for temporary file storage on disk :       8.3 MB
+Total memory allocated                    :      69.1 MB
+Max memory requested                      :    4048.0 MB
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -3952.893778Ha        -0.9562050Ha      2.10E-01     0.0m      1
+Ef        -3952.791396Ha        -0.8538235Ha      1.03E-01     0.0m      2
+Ef        -3952.762943Ha        -0.8253698Ha      5.17E-02     0.1m      3
+Ef        -3952.758399Ha        -0.8208264Ha      1.02E-02     0.1m      4
+Ef        -3952.757641Ha        -0.8200680Ha      4.01E-03     0.1m      5
+Ef        -3952.757525Ha        -0.8199522Ha      1.03E-03     0.1m      6
+Ef        -3952.757409Ha        -0.8198359Ha      7.62E-05     0.1m      7
+Ef        -3952.757397Ha        -0.8198237Ha      1.85E-05     0.1m      8
+Ef        -3952.757396Ha        -0.8198234Ha      1.45E-05     0.1m      9
+Ef        -3952.757396Ha        -0.8198232Ha      3.15E-06     0.1m     10
+Message: SCF converged
+
+
+Fermi Energy:           -0.165352 Ha     -4.499 eV 
+ 
+ within the k-points mesh accuracy this solid is an insulator or semiconductor
+DFT energy gap:          0.142761 Ha      3.885 eV   direct
+valence band edge:      -0.236733 Ha     -6.442 eV
+       located at:         0.000  0.000  0.250  in fractional units of recip
+conduction band edge:   -0.093972 Ha     -2.557 eV
+          located at:      0.000  0.000  0.250
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ga     3.004665  -1.734744  -0.008969     0.000000   0.000000  -0.000214
+df    N     3.004665  -1.734744   3.679762    -0.000000   0.000000   0.000214
+df   Ga    -3.004665   1.734744   4.885421    -0.000000  -0.000000  -0.000214
+df    N    -3.004665   1.734744  -1.214628    -0.000000  -0.000000   0.000214
+df  binding energy      -0.8198233Ha       -22.30854eV        -514.457kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -3951.9375729Ha
+                  Kinetic =       -2.2051859Ha
+            Electrostatic =        0.7404308Ha
+     Exchange-correlation =        0.3855036Ha
+        Spin polarization =        0.2594282Ha
+       Jellium correction =        0.0001328Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -3952.757396Ha        -0.8198233Ha                   0.2m     11
+ 
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ga            0.000000            1.835974            5.175254
+            2    N             0.000000            1.835974            1.947246
+            3    Ga            1.590000            0.917987            2.585254
+            4    N             1.590000            0.917987            4.537246
+          ----------------------------------------------------------------------
+
+ Geometry optimization: predicted energy change is -0.577E-07 Ha
+
+ New Cartesian Coordinates Obtained by Inverse Iteration
+ Norm of Displacement of Delocalized Coordinates:   0.000535
+ Norm of Displacement of Cartesian Coordinates:     0.000288
+
+opt==  Cycle       Total Energy   Energy change   Max Gradient   Max Displacement
+opt==         tolerance:.......      0.0000200        0.002117       0.009449
+opt==    1        -3952.7573961      0.0000000        0.000214       0.000144
+
+ 
+                      Step    1                                       <-- DELOC
+                                                                      <-- DELOC
+ +-----------+-----------------+-----------------+------------+-----+ <-- DELOC
+ | Parameter |      value      |    tolerance    |    units   | OK? | <-- DELOC
+ +-----------+-----------------+-----------------+------------+-----+ <-- DELOC
+ |  delta E  |   -0.819823E+00 |    0.200000E-04 |      Ha    | No  | <-- DELOC
+ |  |F|max   |    0.213575E-03 |    0.211671E-02 |      au    | Yes | <-- DELOC
+ |  |dR|max  |    0.144113E-03 |    0.944863E-02 |      au    | Yes | <-- DELOC
+ +-----------+-----------------+-----------------+------------+-----+ <-- DELOC
+ 
+  Geometry optimization completed successfully in    1 steps.
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ga            0.000000            1.835974            5.175254
+            2    N             0.000000            1.835974            1.947246
+            3    Ga            1.590000            0.917987            2.585254
+            4    N             1.590000            0.917987            4.537246
+          ----------------------------------------------------------------------
+
+
+ +++ Entering Properties Section +++ 
+
+Message: License checkin of MS_dmol successful
+Message: License checkin of MS_dsolid successful
+
+Message: DMol3 job finished successfully
+
+ time all done       0.17m       10.17s

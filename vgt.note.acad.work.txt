@@ -1,0 +1,661 @@
+//lastEdit=>2024.03.05-16:11
+//lastEdit=>2024.03.04-21:10
+//lastEdit=>2024.03.01-20:23
+//lastEdit=>2024.02.26-11:18
+//lastEdit=>2024.01.26-21:22
+//lastEdit=>2024.01.18-19:18
+//lastEdit=>2024.01.16-22:52
+//lastEdit=>2024.01.09-17:01
+//lastEdit=>2024.01.08-16:05
+//lastEdit=>2024.01.03-09:09
+//lastEdit=>2023.12.15-15:01
+//lastEdit=>2023.12.09-19:36
+//lastEdit=>2023.12.01-17:35
+//lastEdit=>2023.11.27-11:21
+//lastEdit=>2023.11.19-19:27
+//lastEdit=>2023.11.11-11:54
+//lastEdit=>2023.11.04-12:54
+//lastEdit=>2023.11.01-21:05
+//lastEdit=>2023.10.28-22:23
+//lastEdit=>2023.10.28-17:44
+//lastEdit=>2023.10.25-09:56
+//lastEdit=>2023.10.23-22:00
+#->*************************splitline********************************
+文档功能:
+	1.工作日志，大致记录实验思路，实验方法及实验参数
+	2.论文学习，记录论文的doi，标题，第一作者，关键字，大致流程
+		2.1.论文为外文的先标明“原外文标题”，在标明“中文翻译标题”
+		2.2.关键字，简写的关键字需要在本文档的“关键字库”区可查；一般不对关键字进行简写除非特别常见
+	3.会议纪要，简单记录会议内容
+文档说明:
+	本文档是纸质版工作笔记的配套内容
+		|-1."nil"或"void"标注，标明无重要内容记录或未工作
+		|-2.只做简单纪要，简单流程记录，工作思路记录，关键字记录
+		|-3.不会出现图片，视频等记录形式；表格可以做简单记录
+	关于实验参数的记录
+		|-1.开始参数(init):记录实验开始的时间为第一时间，并记录输入参数
+		|-2.结束参数(over):记录取样时间为终止时间，并记录表征参数
+		|-3.中途截断(mid):实验中途出现仪器故障，参数调整，方案改变的问题
+		|-4.记录格式为:
+			initTime-overTime,mid
+				|-initArg(起始工艺参数):xxx
+				|-overArg(终止表征参数):xxx	
+				|-mid:截断原因，截断后续操作
+imp->辅助标记
+函数(过程):
+	rst*> = func(arg=par*>)-{body;return->retval}
+		|-rst:输出值接收变量
+		|-func:函数名
+		|-arg:参数名
+		|-par:输入参数
+		|-body:函数处理体
+		|-retval:输出参数
+		|-*>:表示向量
+状态(描述):
+	prt_obj(env) = obj(prt;cond;env)
+		|-prt:参数,研究对象的参数
+		|-obj:研究对象
+		|-env:研究对象的外部环境参数
+		|-cond:研究对象自身的其它性质
+@->*************************splitline********************************
+2024.03.06
+	content:文献阅读
+	keyword:Tm3Fe5O12
+	01.@->Tm3Fe5O12薄膜中磁振子传播长度的温度演化:磁各向异性和吉尔伯特阻尼的作用
+		|-title:Temperature Evolution of Magnon Propagation Length in Tm3Fe5O12 Thin Films: Roles of Magnetic Anisotropy and Gilbert Damping
+		|-doi:10.1021/acsnano.3c12495
+		|-arxiv:2308.07236
+		|-pubPaper:ACS Nano
+		|-pubTime:2024.09.18
+		|-lgc->全文图示及其逻辑
+		|---结构:TmIG/GSGG
+		|---(01)XRD, TmIG结晶质量 = func(TmIG薄膜质量), 说明TmIG与GSGG衬底在面内的结晶高度匹配, 
+2024.03.05
+	content:铁电小组会
+	time:10:00-10:40
+2024.03.04
+	imp->暂选分享论文:06
+	content:文献阅读
+	keyword:2D transfer(二维转移)
+	01.大规模二维半导体的转移: 挑战与发展
+		|-title:Transfer of large-scale two-dimensional semiconductors: challenges and developments
+		|-doi:10.1088/2053-1583/abf234
+		|-IF:6.8
+		|-pubPaper:IOP
+		|-lgc->综述:胶带机械转移,机械支撑层对剥离的影响
+	02.二维材料的堆叠
+		|-title:Stacking of 2D Materials
+		|-doi:10.1002/adfm.202007810
+		|-pubPaper:Advance Functional Materials
+	03.2D材料支持下一代集成光电子学:从制造到应用
+		|-title:2D Materials Enabled Next-Generation Integrated Optoelectronics: from Fabrication to Applications
+		|-doi:10.1002/advs.202003834
+		|-IF:17.5
+		|-pubPaper:Advance Science
+	04.二维材料基金属半导体异质结构的结构、制备及应用
+		|-title:Structure, Preparation, and Applications of 2D Material-Based Metal–Semiconductor Heterostructures
+		|-doi:10.1002/sstr.202000093
+		|-IF:11.3
+		|-pubPaper:Small Structure
+	05.具有导点电阻开关现象的原子薄二维材料库
+		|-title:A Library of Atomically Thin 2D Materials Featuring the Conductive-Point Resistive Switching Phenomenon
+		|-doi:10.1002/adma.202007792
+		|-IF:32.0
+		|-pubPaper:Advance Materials
+	keyword:TmIG
+	06.@->界面粗糙度对超薄铥铁石榴石薄膜磁各向异性和矫顽力的影响
+		|-title:Interfacial roughness driven manipulation of magnetic anisotropy and coercivity in ultrathin thulium iron garnet films
+		|-doi:10.1016/j.jallcom.2022.166800
+		|-IF:6.3
+		|-pubPaper:Journal of Alloys and Compounds
+		|-lgc->全文结构及其逻辑; TmIG质量=func(GGG粗糙度)
+		|---结构:TmIG/GGG
+		|---相关参数:Ta:后退火温度;
+		|---|---RMS:说明表面粗糙度;
+		|---|---tf:薄膜厚度;
+		|---|---IMA:面内磁各向异性;
+		|---|---PMA:垂直磁各向异性;
+		|---(01)XRD表征:说明TmIG衬底与GGG衬底的高度匹配
+		|---(02)TEM表征:说明TmIG的高结晶度;
+		|---(02)EDX表征:表征元素分布,说明是TmTG/GGG结构
+		|---(03)PMA = func(后退火温度,薄膜厚度),1000℃退火+10nm;
+		|---(03)a-f(相同薄膜厚度20nm)不同退火温度的面内(In Plane,体现IMA)面外(Out Plane,体现PMA)磁滞回线, 1000℃退火时PMA占主导IMA几乎消失;
+		|---(03)g-k(相同退火温度1000℃)不同薄膜的面内面外磁滞回线, 1000℃退火时, PMA优先出现在较薄的薄膜中
+		|---(04)AFM表征:说明不同退火温度下的TmIG表面粗糙度, 在850℃后退火时有粗糙度最小的薄膜;
+		|---(04)在700-800℃退火的薄膜表面出现了大量的微小刺突, 850℃退火的薄膜中没有这些尖峰, 而在900、950和1000℃退火的薄膜中出现了纳米孔
+		|---(05)探究GGG衬底划痕对薄膜性能的影响, 对TmIG而言, 衬底表面粗糙度增加PMA减小, 矫顽力增加; 对YIG而言, 衬底表面粗糙度增加IMA无明显变化; 说明TmIG以PMA为主, YIG以IMA为主
+		|---(06)模拟计算:初始磁化翻转强度, 对TmIG而言, GGG衬底粗糙度增加越难翻转; 对YIG而言, GGG衬底粗糙度对磁化翻转影响不大; 进一步说明TmIG以PMA为主, YIG以IMA为主; 以成核和畴传播为磁化反转机制作为基础原理, TmIG和YIG的磁滞回线的模拟结果
+		|---(07)结论:对TmIG薄膜而言, 通过增加衬底表面粗糙度，大大提高了面外磁矫顽力
+	07.石墨烯表面自旋极化态的可调研究铁磁氧化物绝缘子
+		|-title:Tunable Spin-Polarized States in Graphene on a Ferrimagnetic Oxide Insulator
+		|-doi:10.1002/adma.202305763
+		|-IF:32.0
+		|-pubPaper:Advance Material
+		|-lgc->方法:模拟计算; 结构:graphene(石墨烯)/TmIG; 逻辑:graphene能级劈裂=func(外加电场)
+	keyword:TmIG YIG
+	08.钇铥铁石榴石薄膜的磁性和生长诱导的各向异性
+		|-title:Magnetic Properties and Growth-Induced Anisotropy in Yttrium Thulium Iron Garnet Thin Films
+		|-doi:10.1002/aelm.202100452
+		|-IF:7.6
+		|-pubPaper:Advance Electronic Materials
+		|-lgc->组分:Y_(x)Tm_(3-x)IG; 磁学性能 = func(Y:Tm=x:3-x比例)
+2024.03.03
+	content:铁电大组会
+	time:15:00-16:43
+	title:
+		|-柔性磁电薄膜填充材料改善性能
+		|-结构优化改善晶体管性能
+2024.03.02
+	content:void
+2024.03.01
+	content:文献阅读
+	00.使用可调粘性胶带随时可转移的二维材料
+		|-title:Ready-to-transfer two-dimensional materials using tunable adhesive force tapes
+		|-doi:10.1038/s41928-024-01121-3
+		|-pubPaper:Nature Elector
+		|-lgc->光敏胶带(UV tape)制备薄膜
+	content:文献查找,2024.03.17大组会分享
+	keyword:film transfer(薄膜转移)
+	01.非均匀晶圆键合技术和薄膜转移技术-支持5G以外下一代应用的平台
+		|-title:Heterogeneous Wafer Bonding Technology and Thin-Film Transfer Technology-Enabling Platform for the Next Generation Applications beyond 5G
+		|-doi:10.3390/mi12080946
+		|-IF:3.5
+	02.基于GeSbTe和ITO牺牲层相变的光致薄膜转移工艺
+		|-title:Light-Induced Thin-Film Transfer Processes Based on Phase Transition of GeSbTe and ITO Sacrificial Layers
+		|-doi:0.1002/admi.202300101
+		|-IF:6.3
+	keyword:film exfoliation(薄膜剥离)
+	03.层工程大面积剥离石墨烯
+		|-title:Layer-engineered large-area exfoliation of graphene
+		|-doi:10.1126/sciadv.abc6601
+		|-IF:14.9
+		|-lgc->热释放胶带(thermal release tape,TRT)剥离
+	04.先进的带剥离法制备大面积二维单层膜的方法综述
+		|-title:Advanced tape-exfoliated method for preparing large-area 2D monolayers: a review
+		|-doi:10.1088/2053-1583/ac016f
+		|-IF:6.8
+	keyword:film delamination(薄膜分层)
+	keyword:film fabrication(薄膜制备)
+	keyword:layer peeling(薄膜剥落)
+2024.02.29
+	content:PLD制样
+	time:15:00-17:00,20:30-21:00
+	imp->注意事项
+		|-1.银浆不要上下摇晃,要左右摇晃,摇晃前确保瓶盖拧紧
+		|-2.装样时使用塑料镊子,以免刮伤衬底
+2024.02.28
+	content:PFM测试
+	time:09:30-11:00
+	imp->导电针#7号损坏
+2024.02.27
+	content:铁电小组会
+	info->近期任务
+		|-1.实验设备的独立上手
+		|-2.实验耗材购买(GGG,111晶向衬底;热释放胶带购买)
+		|-3.王钰峰工作对接
+	content:AFM测试
+	time:14:0-22:00
+2024.02.26
+	content:具体实验规划
+2024.01.29-2024.02.25
+	content:void,寒假休息
+2024.01.28
+	content:期末汇报(铁电,研一)
+	time:09:18-10:30
+2024.01.27
+	content:期末汇报大纲
+	time:20:30-21:48
+2024.01.26
+	content:期末汇报(正式汇报)
+	time:14:53-16:50
+2024.01.25
+	content:铁电小组会
+	time:09:30-12:10
+	content:文献阅读
+	01.氧化铂/磁性氧化物异质结构中的本征自旋霍尔效应
+		|-title:Intrinsic spin Hall effect in oxidized platinum/magnetic oxide heterostructure
+		|-doi:10.1063/5.0102823
+		|-lgc->SMR = f(Pt氧化率)
+	02.在具有相反自旋霍尔角的重金属/晶体金属铁磁多层膜中最大化自旋霍尔磁电阻
+		|-title:Maximizing spin Hall magnetoresistance in heavymetal/crystalline metallic ferromagnet multilayers with opposite spin Hall angles
+		|-doi:10.1039/d2nr02306g
+		|-lgc->SMR = f(退火温度,电极层薄膜厚度)
+	03.多铁Bi1.05La0.05FeO3与重金属Pt异质界面的室温自旋霍尔磁阻
+		|-title:Room temperature spin Hall magnetoresistance at a hetero-interface between multiferroic Bi1.05La0.05FeO3 and heavy-metal Pt
+		|-doi:10.1063/5.0074841
+		|-lgc->SMR = f(电极层薄膜厚度)
+	04.在Si和Gd3Ga5O12衬底上生长的Pt/Y3Fe5O12双分子层的自旋霍尔磁阻
+		|-title:Spin Hall magnetoresistance in Pt/Y3Fe5O12 bilayers grown on Si and Gd3Ga5O12 substrates
+		|-doi:10.1063/5.0124583
+		|-lgc->SMR = f(衬底类型,退火温度)
+		|-cmpa->YIG/GGG,YIG/Si
+2024.01.24
+	content:期末汇报要点
+	content:期末汇报文献
+		01.通过在铁磁性钇铁石榴石中传播磁振子来实现纳米磁体的反转，从而实现非易失性磁振子存储器
+			|-title:Reversal of nanomagnets by propagating magnons in ferrimagnetic yttrium iron garnet enabling nonvolatile magnon memory
+			|-lgc->磁化翻转 = f(外部输入功率)
+			|-imp->亮点:器件结构
+		02.石墨烯自旋电路中的多功能自旋逻辑运算
+			|-title:Multifunctional Spin Logic Operations in Graphene Spin Circuits
+			|-lgc->逻辑功能 = f(多路输入的组合)
+			|-imp->亮点:器件结构
+2024.01.23
+	content:期末汇报整理
+	content:文献阅读
+	01.YIG/Au/YIG磁振子阀的磁化动力学
+		|-title:Magnetization dynamics in the YIG/Au/YIG magnon valve
+		|-doi:10.1063/5.0081104
+	02.垂直磁各向异性的热驱动磁振子阀
+		|-title:Thermally driven magnon valve with perpendicular magnetic anisotropy
+		|-doi:10.1063/5.0082849
+	03.范德华反铁磁绝缘体中巨电可调谐磁振子输运各向异性
+		|-title:Giant electrically tunable magnon transport anisotropy in a van der Waals antiferromagnetic insulator
+		|-doi:10.1038/s41467-023-38172-7
+	04.磁绝缘体/重金属/磁绝缘体装置中的面内磁振子效应
+		|-title:In-Plane Magnon Valve Effect in Magnetic Insulator/Heavy Metal/ Magnetic Insulator Device
+		|-doi:arxiv.2312.17413
+	05.补偿铁磁体中磁振子自旋电流的电场开关
+		|-title:Electric Field Switching of Magnon Spin Current in a Compensated Ferrimagnet
+		|-doi:arxiv.2311.15183
+	06.pt对称自旋电子热二极管和逻辑门
+		|-title:PT-Symmetry Enabled Spintronic Thermal Diodes and Logic Gates
+		|-doi:10.1002/aelm.202300325
+	07.钇铁石榴石中磁振子的磁场和温度相关布里渊光散射光谱
+		|-title:Magnetic Field and Temperature-Dependent Brillouin Light Scattering Spectra of Magnons in Yttrium Iron Garnet
+		|-doi:10.1021/acs.jpclett.3c01639
+	08.基于单器件自旋霍尔效应的可编程自旋逻辑
+		|-title:Programmable Spin Logic Based on Spin Hall Effect in a Single Device
+		|-doi:10.1002/aelm.201600282
+	09.石墨烯自旋电路中的多功能自旋逻辑运算
+		|-title:Multifunctional Spin Logic Operations in Graphene Spin Circuits
+		|-doi:10.1103/PhysRevApplied.18.064063
+	10.内置非互易的全自旋逻辑器件
+		|-title:All-Spin Logic Device with inbuilt Non-Reciprocity
+		|-doi:arxiv.1106.2789
+	11.全自旋逻辑器件的限流挑战
+		|-title:Current-limiting challenges for all-spin logic devices
+		|-doi:10.1038/srep14905
+	12.基于驻自旋波的无偏置磁场传感器
+		|-title:Offset-Free Magnetic Field Sensor Based on a Standing Spin Wave
+		|-doi:0.1103/PhysRevApplied.20.044083
+	13.铁磁和反铁磁系统中电流诱导的自旋轨道转矩
+		|-title:Current-induced spin-orbit torques in ferromagnetic and antiferromagnetic systems
+		|-doi:10.1103/RevModPhys.91.035004
+	14.自旋轨道转矩的最新进展:迈向器件应用
+		|-title:Recent advances in spin-orbit torques: Moving towards device applications
+		|-doi:arxiv.1808.06829
+2024.01.22
+	content:自旋电子学
+	content:文献阅读
+	01.通过在铁磁性钇铁石榴石中传播磁振子来实现纳米磁体的反转，从而实现非易失性磁振子存储器
+		|-title:Reversal of nanomagnets by propagatingmagnons in ferrimagnetic yttrium iron garnet enabling nonvolatile magnon memory
+		|-doi:10.1038/s41467-023-37078-8
+	02.石墨烯/MoTe2范德华异质结构中的非常规电荷自旋转换
+		|-title:Unconventional charge-to-spin conversions in graphene/MoTe2 van der Waals heterostructures
+		|-doi:arxiv.2211.09095
+	03.磁绝缘体通道中磁非相干感应畴壁运动
+		|-title:Coherent magnon-induced domain wall motion in a magnetic insulator channel
+		|-doi:arxiv.2212.01408
+	04.两个磁绝缘体之间的磁振子效应
+		|-title:Magnon Valve Effect between Two Magnetic Insulators
+		|-doi:10.1103/PhysRevLett.120.097205
+	05.利用磁振子传递转矩来改变磁性绝缘体的垂直磁化强度
+		|-title:Switching the perpendicular magnetization of a magnetic insulator by magnon transfer torque
+		|-doi:10.1103/PhysRevB.104.094412
+	06.用自旋转矩铁磁共振法测定铁磁金属的自旋转矩效率
+		|-title:Determining spin-torque efficiency in ferromagnetic metals via spin-torque ferromagnetic resonance
+		|-doi:10.1103/PhysRevB.101.064412
+	07.基于YIG/NiO/YIG全绝缘磁振子结的磁振子阀
+		|-title:Magnon valves based on YIG/NiO/YIG all-insulating magnon junctions
+		|-doi:10.1103/PhysRevB.98.134426
+	08.强自旋轨道金属中的声自旋霍尔效应
+		|-title:Acoustic spin Hall effect in strong spin-orbit metals
+		|-doi:sciadv.abd9697
+	09.自旋霍尔效应
+		|-title:Spin Hall effect
+		|-doi:arxiv.1411.3249
+	10.电可调自旋注入器无阻抗失配问题
+		|-title:Electrically tunable spin injector free from the impedance mismatch problem
+		|-doi:10.1038/nmat3052
+	11.在磁绝缘体中通过自旋波相互转换的电信号传输
+		|-title:Transmission of electrical signals by spin-wave interconversion in a magnetic insulator
+		|-doi:10.1038/nature08876
+	12.由非平衡接近效应引起的自旋霍尔磁阻
+		|-title:Spin Hall Magnetoresistance Induced by a Nonequilibrium Proximity Effect
+		|-doi:10.1103/PhysRevLett.110.206601
+	13.垂直磁各向异性薄膜在数据存储中的最新进展
+		|-title:Recent Developments in Perpendicular Magnetic Anisotropy Thin Films for Data Storage Applications
+		|-doi:10.1016/j.vacuum.2017.01.031
+2024.01.21
+	content:自旋电子学
+2024.01.20
+	content:自旋电子学
+2024.01.19
+	content:自旋电子学
+2024.01.18
+	content:铁电小组会
+	content:期末汇报准备
+	content:自旋电子学学习
+		|-自旋流会发生散射，产生电荷流，有焦耳热
+		|-磁子流在磁性绝缘体(YIG)中的传输，没有电荷流，不会产生焦耳热
+2024.01.17
+	content:PLD操作
+	content:thermal release tape(TRT,热释放胶带)调查
+2024.01.16
+	content:文献阅读->vgt查询
+	01.自旋波在相交钇铁石榴石纳米波导中的传播
+		|-title:Propagation of Spin Waves in Intersecting Yttrium Iron Garnet Nanowaveguides
+		|-doi:10.1103/PhysRevApplied.18.054081
+	02.钇铁石榴石中超短磁振子对50纳米宽Ni81Fe19纳米条纹的磁化逆转
+		|-title:Magnetization Reversal of 50-nm-wide Ni81Fe19 Nanostripes by Ultrashort Magnons in Yttrium Iron Garnet for Memory-Enhanced Magnonic
+		|-doi:void
+	03.通过在铁磁性钇铁石榴石中传播磁振子来实现纳米磁体的反转，从而实现非易失性磁振子存储器
+		|-title:Reversal of nanomagnets by propagating magnons in ferrimagnetic yttrium iron garnet enabling nonvolatile magnon memory
+		|-doi:10.1038/s41467-023-37078-8
+	04.连续钇铁石榴石薄膜的低损耗纳米自旋波引导
+		|-title:Low-Loss Nanoscopic Spin-Wave Guiding in Continuous Yttrium Iron Garnet Films
+		|-doi:10.1021/acs.nanolett.2c01238
+	05.电场控制溅射Bi2Se3的巨可调自旋霍尔角
+		|-title:Giant tunable spin Hall angle in sputtered Bi2Se3 controlled by an electric field
+		|-doi:10.1038/s41467-022-29281-w
+	06.拓扑绝缘体/磁绝缘体异质结构中的大单向自旋霍尔和Rashba - Edelstein磁阻
+		|-title:Large unidirectional spin Hall and Rashba−Edelstein magnetoresistance in topological insulator/magnetic insulator heterostructures
+		|-doi:10.1063/5.0073976
+	07.石墨烯/MoTe2范德华异质结构中的非常规电荷自旋转换
+		|-title:Unconventional charge-to-spin conversions in graphene/MoTe2 van der Waals heterostructures
+		|-doi:void
+2024.01.15
+	content:AFM操作
+	content:thermal release tape(TRT,热释放胶带)调查->周鹏老师传递
+	01.基于二维材料的层转移工艺在单晶片上高通量制造外延膜
+		|-title:High-throughput manufacturing of epitaxial membranes from a single wafer by 2D materials-based layer transfer process
+		|-doi:10.1038/s41565-023-01340-3
+		|-autor:Wei Kong(kongwei@westlake.edu.cn,designed the experiments); Jeehwan Kim(jeehwan@mit.edu,idea and led)
+		|-是否提及tape关键字:yes
+	02.石墨烯的稳定性及AlN表面凹坑对氮化镓远端外延剥离的影响
+		|-title:Stability of Graphene and Influence of AlN Surface Pits on GaN Remote Heteroepitaxy for Exfoliation
+		|-doi:10.1021/acsnano.3c02565
+		|-autor:Dong-Seon Lee(dslee66@gist.ac.kr)
+		|-是否提及tape关键字:yes
+	03.通过石墨烯的远程外延相互作用
+		|-title:Remote epitaxial interaction through graphene
+		|-doi:10.1126/sciadv.adj5379
+		|-autor:Jeehwan Kim(jeehwan@mit.edu); Young Joon Hong(yjhong@sejong.ac.kr); Darrell G. Schlom(schlom@cornell.edu); Dong-Hwan Kim(dhkim1@skku.edu)
+		|-是否提及tape关键字:yes
+	04.溅射沉积𝜶-MoO3范德华外延和薄膜转移的中间层
+		|-title:Sputter-Deposited 𝜶-MoO3 Interlayers for van der Waals Epitaxy and Film Transfer
+		|-doi:10.21203/rs.3.rs-3006214/v1
+		|-autor:Dong Hun Kim(dhkim@mju.ac.kr)
+		|-是否提及tape关键字:yes
+	05.石墨烯在氧化物基底上的拉曼光谱表征
+		|-title:Raman spectroscopic characterizations of graphene on oxide substrates for remote epitaxy
+		|-doi:10.1063/5.0143083
+		|-autor:void
+		|-是否提及tape关键字:no
+	06.用于能量收集和病毒检测的独立式压电陶瓷薄膜的绿色制备
+		|-title:Green Fabrication of Freestanding Piezoceramic Films for Energy Harvesting and Virus Detection
+		|-doi:10.1007/s40820-023-01105-6
+		|-autor:void
+		|-是否提及tape关键字:no
+	07.独立GaN薄膜在石墨烯涂层c -蓝宝石上的脉冲模式金属有机气相外延
+		|-title:Pulsed-Mode Metalorganic Vapor-Phase Epitaxy of GaN on Graphene-Coated c‑Sapphire for Freestanding GaN Thin Films
+		|-doi:10.1021/acs.nanolett.3c03333
+		|-autor:Gyu-Chul Yi(gcyi@snu.ac.kr)
+		|-是否提及tape关键字:yes
+	08.石墨烯辅助衰减电荷转移调制远端外延异质界面
+		|-title:Modulation of Remote Epitaxial Heterointerface by Graphene-Assisted Attenuative Charge Transfer
+		|-doi:10.1021/acsnano.3c00026
+		|-autor:Yu Xu(yxu2007@sinano.ac.cn); Bing Cao(bingcao@suda.edu.cn); Ke Xu(kxu2006@sinano.ac.cn)
+		|-是否提及tape关键字:
+	09.锚点成核揭示三维半导体在石墨烯上的异质积分
+		|-title:Unraveling the Heterointegration of 3D Semiconductors on Graphene by Anchor Point Nucleation
+		|-doi: 10.1002/smll.202306038
+		|-autor:void
+		|-是否提及tape关键字:no
+2024.01.14
+	content:void
+2024.01.13
+	content:void
+2024.01.12
+	content:void
+2024.01.11
+	content:铁电小组会
+2024.01.10
+	content:AFM操作
+2024.01.09
+	content:文献调查,time:08:40-11:00,14:40-17:00
+2024.01.08
+	content:PLD操作,time:08:30-10:50
+	content:AFM操作,time:15:00-15:50
+2024.01.07
+	content:铁电陶瓷太阳能大组会,time:15:00-16:45
+2024.01.06
+	content:void
+2024.01.05
+	content:AFM操作,time:09:00-09:40
+2024.01.04
+	content:铁电小组会,time:10:00-11:00
+2024.01.03
+	content:讲座-如何撰写综述文章,time:15:30-18:00
+2024.01.02
+	content:PLD操作
+	time:08:45-11:00
+	imp->10:25材院整栋楼停电,紧急处理PLD
+		|-关分子泵阀,关靶自转电源,关加热电源,关压强传感器,关分子泵电源
+2024.01.01
+	content:void
+2023.12.31
+	content:void
+2023.12.30
+	content:void
+2023.12.29
+	content:PLD操作
+	time:08:30-11:30
+2023.12.28
+	content:铁电小组会
+2023.12.27
+	content:“自旋霍尔磁电阻效应”器件-项目总结
+	项目科研内容
+	个人科研规划
+2023.12.26
+	content:PPMS操作
+	time:19:30-20:30
+	imp->实验室2014密码:061338
+	pc电脑账号密码:
+		|-账号:caochuan
+		|-密码:yuan910227
+2023.12.25
+	content:磁控溅射
+	time:08:30-09:30
+2023.12.24
+	content:铁电陶瓷太阳能大组会
+	direct:铁电
+	title:压电传感器在生物学方面的应用
+2023.12.23
+	content:void
+2023.12.22
+	content:void
+2023.12.21
+	content:铁电小组会
+2023.12.20
+	content:文献学习
+	obj->铁磁(FM),非铁磁(NM),磁绝缘体(FI)
+2023.12.19
+	content:PLD操作-激光源换气,能量校准
+2023.12.18
+	content:基础知识学习-量子力学基础
+2023.12.17
+	content:文献调研-自旋霍尔磁电阻器件
+	详情:vgt.note.acad.datb.txt
+2023.12.16
+	content:基础知识学习-量子力学基础
+2023.12.15
+	content:基础知识学习-自旋电子学
+2023.12.14
+	content:铁电小组会
+	target:文献调研,准备12月底文献汇报
+2023.12.13
+	content:void
+2023.12.12
+	content:PPMS测试
+2023.12.11
+	content:void
+2023.12.10
+	content:铁电陶瓷太阳能大组会
+	direct:铁电
+	title:铁电材料在生物方面的应用
+	title:柔性铁电生物传感器
+2023.12.09
+	content:课程复习
+2023.12.08
+	content:void
+2023.12.07
+	content:课程复习
+2023.12.06
+	content:铁电小组会
+2023.12.05
+	content:AFM测试,光刻
+2023.12.04
+	content:FMR测试
+	imp->材料科学与工程学院一楼1006,EPR-FMR
+		pc电脑
+			|-用户:user@xepr
+			|-管理员:xepr@linux
+2023.12.03
+	content:PLD操作,铁电陶瓷太阳能组会
+2023.12.02
+	content:文献阅读
+	title:异质结构薄膜的垂直磁各向异性和自旋霍尔效应
+	autor:李刚
+	pubTime:2019.07.16->2019.08.15
+	pubOrg:中国科学院大学(中国科学院物理研究所)
+	keyword:垂直磁各向异性;自旋霍尔角;自旋-轨道力矩;磁化翻转;缓冲层;
+2023.11.27
+	content:void
+2023.11.27
+	content:学术会议
+	title:铁酸铋的表征及其在光电催化方面的应用
+	报告人:房雪晴(xueqing.fang@unsw.edu.au)
+2023.11.26
+	content:铁电,陶瓷,太阳能组会
+2023.11.25
+	content:void
+2023.11.24
+	content:void
+2023.11.23
+	content:铁电小组会
+2023.11.22
+	content:PFM测试
+2023.11.21
+	content:void
+2023.11.20
+	content:void
+2023.11.19
+	content:铁电陶瓷太阳能大组会
+2023.11.18
+	content:void
+2023.11.17
+	content:void
+2023.11.16
+	content:void
+2023.11.15
+	content:学术会议
+	title:纳米对称性
+2023.11.14
+	content:void
+2023.11.13
+	content:PLD取样,磁控溅射,AFM测试
+2023.11.12
+	content:铁电陶瓷太阳能大组会
+2023.11.11
+	content:nil
+2023.11.10
+	content:nil
+2023.11.09
+	content:nil
+2023.11.08
+	content:nil
+2023.11.07
+	content:nil
+2023.11.06
+	content:PFM测试学习
+2023.11.05
+	content:铁电陶瓷太阳能大组会
+		|-微波陶瓷
+2023.11.04
+	content:nil
+2023.11.03
+	content:nil
+2023.11.02
+	content:nil
+2023.11.01
+	content:PLD取样,AFM操作
+2023.10.31
+	content:nil
+2023.10.29
+	content:铁电,陶瓷,太阳能大组会
+2023.10.28
+	content:文献学习，研究方向初步了解
+2023.10.27
+	content:PLD建设仪，样品制作，载物台安放，抽真空操作
+	content:文献学习->周鹏老师传递
+	01.Co/Cu/Co结构中具有自旋对称性的自旋极化诱导的自旋轨道转矩和单向磁阻效应共存
+		|-title:Coexistence of spin-orbit torque and unidirectional magnetoresistance effect induced by spin polarization with spin rotation symmetry in Co/Cu/Co structures
+		|-doi:10.1103/PhysRevB.106.094422
+	02.α-Fe2O3/Pt(111)外延异质结构的结构和磁输运性质:反向层序的作用
+		|-title:Insight into the structural and magnetotransport properties of epitaxial α-Fe2O3/Pt(111) heterostructures: Role of the reversed layer sequence
+		|-doi:10.1103/PhysRevB.106.104419
+	03.拓扑绝缘体/磁绝缘体双层结构中自旋电流与磁化强度的相互作用
+		|-title:Interplay of spin current and magnetization in a topological-insulator/magnetic-insulator bilayer structure
+		|-doi:10.1103/PhysRevMaterials.6.074203
+	04.氧化铂/磁性氧化物异质结构中的本征自旋霍尔效应
+		|-title:Intrinsic spin Hall effect in oxidized platinum/magnetic oxide heterostructure
+		|-doi:10.1063/5.0102823
+	05.拓扑绝缘体/磁绝缘体异质结构中的大单向自旋霍尔和Rashba-Edelstein磁阻
+		|-title:Large unidirectional spin Hall and Rashba-Edelstein magnetoresistance in topological insulator/magnetic insulator heterostructures
+		|-doi:10.1063/5.0073976
+	06.Tm3Fe5O12/Pt异质结构各向异性磁阻的低温量子校正
+		|-title:Low-temperature quantum correction to anisotropic magnetoresistance in Tm3Fe5O12/Pt heterostructures
+		|-doi:10.1103/PhysRevB.105.184428
+	07.Ta/Pt/CoFeB多层膜中自旋霍尔磁电阻和单向自旋霍尔磁电阻的操纵
+		|-title:Manipulation of spin Hall magnetoresistance and unidirectional spin Hall magnetoresistance in Ta/Pt/CoFeB multilayers
+		|-doi:10.1016/j.jmmm.2022.169667
+	08.在具有相反自旋霍尔角的重金属/晶体金属铁磁体多层膜中最大化自旋霍尔磁阻
+		|-title:Maximizing spin Hall magnetoresistance in heavy metal/crystalline metallic ferromagnet multilayers with opposite spin Hall angles
+		|-doi:10.1039/d2nr02306g
+	09.单晶Pt/CoO(001)双层的正自旋霍尔磁阻
+		|-title:Positive spin Hall magnetoresistance in single-crystalline Pt/CoO(001) bilayers
+		|-doi:10.1103/PhysRevB.106.134425
+	10.多铁Bi1.05La0.05FeO3与重金属Pt异质界面的室温自旋霍尔磁阻
+		|-title:Room temperature spin Hall magnetoresistance at a hetero-interface between multiferroic Bi1.05La0.05FeO3 and heavy-metal Pt
+		|-doi:10.1063/5.0074841
+	11.自旋泵浦对Tm3Fe5O12/ W双层层磁化阻尼的贡献
+		|-title:Spin pumping contribution to the magnetization damping in Tm3Fe5O12/ W bilayers
+		|-doi:10.1016/j.jmmm.2021.168630
+	12.YIG/Pt异质结构中表面磁各向异性介导的自旋霍尔磁阻和自旋塞贝克效应
+		|-title:Surface magnetic anisotropy-mediated spin Hall magnetoresistance and spin Seebeck effects in a YIG/Pt heterostructure
+		|-doi:10.1016/j.jmmm.2022.169173
+	13.全反铁磁异质结构中的可调谐自旋霍尔磁阻
+		|-title:Tunable Spin Hall Magnetoresistance in All-Antiferromagnetic Heterostructures
+		|-doi:10.1088/0256-307X/39/4/047502
+	14.磁性异质结构中界面自旋输运研究
+		|-title:The study of interfacial spin transport in magnetic heterostructure
+		|-doi:void
+		|-autor:张琪涵
+		|-pubOrg:兰州大学
+	15.异质结构薄膜的垂直磁各向异性和自旋霍尔效应
+		|-title:Perpendicular magnecit anisotropy and spin Hall effect in heterostructure films
+		|-doi:void
+		|-autor:李刚
+		|-pubOrg:中国科学院大学
+2023.10.26
+	content:PLD溅射仪，激光发射器部分调试
+2023.10.25
+	content:研究课题调查
+	参考文件:
+		./vgt/src/doc/vgt/note.acad.invst.txt
+2023.10.24
+	content:nil	
+2023.10.23
+	content:nil

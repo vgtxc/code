@@ -1,0 +1,281 @@
+ 
+     ===============================================================
+     Materials Studio DMol^3 version 2020            
+     compiled on Oct 17 2019 19:55:04
+     ===============================================================
+ 
+     ===============================================================
+     Density Functional Theory Electronic Structure Program
+     Copyright (c) 2019, Dassault Systemes, all rights reserved.
+     Cite work using this program as: 
+     B. Delley, J. Chem. Phys. 92,  508  (1990).
+     B. Delley, J. Chem. Phys. 113, 7756 (2000).
+     DMol^3 is available as part of Materials Studio.
+     ===============================================================
+ 
+ 
+DATE:     Apr 17 14:41:10 2023
+ 
+Job started on host VGTPC
+
+This run uses   10 processors
+
+Message: License checkout of MS_dmol successful
+Message: License checkout of MS_dsolid successful
+ 
+Basis set is read from file:
+D:\sw\biovia\Materials Studio 20.1 x64 Server\share\Resources\Quantum\DMol3\BASFILE_v3.5
+
+ 
+ parallel run with  10 processors
+ 
+ no INCOOR file: try ZMAT
+ no ZMAT file: try CAR
+
+Geometry is read from file: Si-104.0Len.car                                                                                                                                                                                                                                                 
+
+INCOOR, atomic coordinates in au (for archive):
+______________________________________________________________________>8
+
+$cell vectors
+             10.67128342783880    0.00000000000000    0.00000000000000
+              0.00000000000000   10.67128342783880    0.00000000000000
+              0.00000000000000    0.00000000000000   10.67128342783880
+$coordinates
+Si            0.00000000000000    0.00000000000000    0.00000000000000
+Si            0.00000000000000    5.33564171391940    5.33564171391940
+Si            5.33564171391940    0.00000000000000    5.33564171391940
+Si            5.33564171391940    5.33564171391940    0.00000000000000
+Si            8.00346257087910    2.66782085695970    8.00346257087910
+Si            2.66782085695970    2.66782085695970    2.66782085695970
+Si            2.66782085695970    8.00346257087910    8.00346257087910
+Si            8.00346257087910    8.00346257087910    2.66782085695970
+$end
+______________________________________________________________________>8
+
+
+N_atoms =    8     N_atom_types =  1
+
+
+INPUT_DMOL keywords (for archive):
+______________________________________________________________________>8
+
+#Warning: no global confinement specs in BASFILE
+                                                                                                                                    <--
+# Task parameters                                                                                                                   <--
+Calculate                     optimize                                                                                              <--
+Opt_energy_convergence        2.0000e-05                                                                                            <--
+Opt_gradient_convergence      4.0000e-03 A                                                                                          <--
+Opt_displacement_convergence  5.0000e-03 A                                                                                          <--
+Opt_iterations                50                                                                                                    <--
+Opt_max_displacement          0.3000 A                                                                                              <--
+Symmetry                      on                                                                                                    <--
+Max_memory                    2048                                                                                                  <--
+File_usage                    smart                                                                                                 <--
+Scf_density_convergence       1.000000e-05                                                                                          <--
+Scf_charge_mixing             2.000000e-01                                                                                          <--
+Scf_diis                      6 pulay                                                                                               <--
+Scf_iterations                50                                                                                                    <--
+                                                                                                                                    <--
+# Electronic parameters                                                                                                             <--
+Spin_polarization             restricted                                                                                            <--
+Charge                        0                                                                                                     <--
+Basis                         dnd                                                                                                   <--
+Pseudopotential               none                                                                                                  <--
+Functional                    blyp                                                                                                  <--
+Aux_density                   hexadecapole                                                                                          <--
+Integration_grid              medium                                                                                                <--
+Occupation                    fermi                                                                                                 <--
+Cutoff_Global                 4.0000 angstrom                                                                                       <--
+                                                                                                                                    <--
+# Kpoint definition file (intervals/offset):                                                                                        <--
+Kpoints                       file     2 2 2 0.0000 0.0000 0.0000                                                                   <--
+Si-104.0Len.kpoints                                                                                                                 
+                                                                                                                                    <--
+# Calculated properties                                                                                                             <--
+______________________________________________________________________>8
+
+
+Publications of specific relevance to this calculation:
+
+Density functional:
+ B88 exchange: Becke, Phys. Rev. A 38, 3098 (1988)
+ LYP correlation: Lee Yang Parr, Phys. Rev. B 37, 785 (1988)
+
+
+ The Generation and Use of Delocalized Internal Coordinates in Geometry optimization; 
+ Baker Kessi Delley: J. Chem. Phys., 105, 192 (1996) 
+ Andzelm Fitzgerald King-Smith: Chem. Phys. Lett., 335, 321 (2001)
+
+Fast Calculation of Electrostatics in Crystals and Large Molecules;
+ Delley: J. Phys. Chem. 100, 6107 (1996)
+
+Parallel eigenvalue solution:
+Parallel solution of partial symmetric eigenvalue problems from electronic structure calculations:
+Auckenthaler, Blum, Bungartz, et al.: Parallel Computing 37, 783 (2011)
+
+ 
+Calculation is Spin_restricted
+ 
+ 
+
+The point group of the crystal is:
+ full cubic group
+ with inversion symmetry
+
+Note: this cell has   4 times the volume of the primitive cell
+
+
+Lattice:
+ translation vector [a0]    1   10.671283428    0.000000000    0.000000000
+ translation vector [a0]    2    0.000000000   10.671283428    0.000000000
+ translation vector [a0]    3    0.000000000    0.000000000   10.671283428
+Cell volume         1215.206 a0^3
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Si            0.000000            0.000000            0.000000
+            2    Si            0.000000            2.823500            2.823500
+            3    Si            2.823500            0.000000            2.823500
+            4    Si            2.823500            2.823500            0.000000
+            5    Si            4.235250            1.411750            4.235250
+            6    Si            1.411750            1.411750            1.411750
+            7    Si            1.411750            4.235250            4.235250
+            8    Si            4.235250            4.235250            1.411750
+          ----------------------------------------------------------------------
+
+  
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     64  primitive internals
+
+Silicon      nbas=  1, z=  14, nrfn=  8, rcut=  7.56, e_ref= -0.039638 Ha
+                                  rcore=  0.00  zval=  14.00  14.00
+   n=1  L=0  occ= 2.00 e=     -65.463968Ha     -1781.3660eV
+   n=2  L=0  occ= 2.00 e=      -5.057504Ha      -137.6217eV
+   n=2  L=1  occ= 6.00 e=      -3.475334Ha       -94.5687eV
+   n=3  L=0  occ= 2.00 e=      -0.365009Ha        -9.9324eV
+   n=3  L=1  occ= 2.00 e=      -0.114779Ha        -3.1233eV
+   n=3  L=0  occ= 0.00 e=      -1.043816Ha       -28.4037eV
+   n=3  L=1  occ= 0.00 e=      -0.750554Ha       -20.4236eV
+   n=3  L=2  occ= 0.00 e=      -1.999965Ha       -54.4218eV
+
+Kpoints mesh:   2   2   2    0  0  0    0  1       8
+
+Parameters for generating k-points:   2   2   2        0.00      0.00      0.00        8
+Total number of symmetry-unique k points:       1
+Total number of symmetry-unique tetrahedra:       1
+
+
+Symmetry orbitals C1                            
+    n  norb    representation
+    1   144        a    
+  total number of valence orbitals:    144
+
+ cell charge=              0.000000   active electron number     112.0
+ (without charge=             112.0 )
+ 
+
+ real array elements, matrices vectors etc:       8.5 MB 
+ integer arrays                           :       0.2 MB 
+ min recommended for all-incl workspace   :      10.6 MB 
+Total memory allocated for arrays         :      36.1 MB 
+Memory for temporary file storage on disk :       7.3 MB
+Total memory allocated                    :      43.4 MB
+Max memory requested                      :    2048.0 MB
+Warning: Tetrahedra were defeated since there is only 1 kpoint
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -2316.241586Ha        -1.1739391Ha      6.42E-02     0.1m      1
+Ef        -2316.248803Ha        -1.1811562Ha      5.29E-02     0.1m      2
+Ef        -2316.240216Ha        -1.1725686Ha      1.32E-02     0.1m      3
+Ef        -2316.238738Ha        -1.1710913Ha      7.01E-03     0.2m      4
+Ef        -2316.238505Ha        -1.1708579Ha      1.30E-03     0.2m      5
+Ef        -2316.238516Ha        -1.1708685Ha      3.13E-04     0.3m      6
+Ef        -2316.238509Ha        -1.1708616Ha      2.84E-05     0.3m      7
+Ef        -2316.238508Ha        -1.1708604Ha      2.16E-07     0.3m      8
+Message: SCF converged
+
+
+Fermi Energy:           -0.178793 Ha     -4.865 eV 
+DFT energy gap:          0.091898 Ha      2.501 eV
+valence band edge:      -0.178793 Ha     -4.865 eV
+conduction band edge:   -0.086895 Ha     -2.365 eV
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Si     0.000000   0.000000   0.000000     0.000000  -0.000000  -0.000000
+df   Si     0.000000   5.335642   5.335642     0.000000  -0.000000  -0.000000
+df   Si     5.335642   0.000000   5.335642    -0.000000  -0.000000   0.000000
+df   Si     5.335642   5.335642   0.000000    -0.000000  -0.000000  -0.000000
+df   Si    -2.667821   2.667821  -2.667821     0.000000  -0.000000   0.000000
+df   Si     2.667821   2.667821   2.667821    -0.000000  -0.000000  -0.000000
+df   Si     2.667821  -2.667821  -2.667821    -0.000000   0.000000   0.000000
+df   Si    -2.667821  -2.667821   2.667821     0.000000   0.000000  -0.000000
+df  binding energy      -1.1708604Ha       -31.86075eV        -734.741kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -2315.0676471Ha
+                  Kinetic =       -1.6197404Ha
+            Electrostatic =       -0.3573392Ha
+     Exchange-correlation =        0.4891190Ha
+        Spin polarization =        0.3171001Ha
+       Jellium correction =        0.0003430Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -2316.238508Ha        -1.1708604Ha                   0.4m      9
+ 
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Si            0.000000            0.000000            0.000000
+            2    Si            0.000000            2.823500            2.823500
+            3    Si            2.823500            0.000000            2.823500
+            4    Si            2.823500            2.823500            0.000000
+            5    Si            4.235250            1.411750            4.235250
+            6    Si            1.411750            1.411750            1.411750
+            7    Si            1.411750            4.235250            4.235250
+            8    Si            4.235250            4.235250            1.411750
+          ----------------------------------------------------------------------
+
+ Message: Gradients are very small. RMS cartesian gradient:    0.2E-12
+ Message: Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Si            0.000000            0.000000            0.000000
+            2    Si            0.000000            2.823500            2.823500
+            3    Si            2.823500            0.000000            2.823500
+            4    Si            2.823500            2.823500            0.000000
+            5    Si            4.235250            1.411750            4.235250
+            6    Si            1.411750            1.411750            1.411750
+            7    Si            1.411750            4.235250            4.235250
+            8    Si            4.235250            4.235250            1.411750
+          ----------------------------------------------------------------------
+
+
+ +++ Entering Properties Section +++ 
+
+Message: License checkin of MS_dmol successful
+Message: License checkin of MS_dsolid successful
+
+Message: DMol3 job finished successfully
+
+ time all done       0.40m       24.27s

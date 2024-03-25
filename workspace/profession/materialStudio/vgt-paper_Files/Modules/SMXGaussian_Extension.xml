@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="latin1"?>
+<EXTENSION VERSION="20.1">
+<LOGICS>
+<LOGICITEM NAME="GaussianAnalysis">
+	<STATE NAME="SMXGaussian.GaussianAnalysis" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="GaussianClient">
+	<STATE NAME="GaussianClient" VERSION="20.1">
+	<PROPERTIES>
+	<PROPERTY NAME="ElectronDensity">
+	<VALUE>true</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="Electrostatics">
+	<VALUE>true</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="GaussianJobHandler">
+	<STATE NAME="SMXGaussian.GaussianJobHandler" VERSION="20.1">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="QMJobTemplate">
+	<STATE NAME="QMJobTemplate" VERSION="20.1">
+	<PROPERTIES>
+	<PROPERTY NAME="MpiRequested">
+	<VALUE>true</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+</LOGICS>
+</EXTENSION>

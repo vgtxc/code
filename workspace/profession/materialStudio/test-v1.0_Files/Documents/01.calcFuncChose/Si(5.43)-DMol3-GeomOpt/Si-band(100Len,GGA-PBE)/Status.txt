@@ -1,0 +1,17 @@
+====================================================
+                  DMol3 Run Status                  
+====================================================
+ 
+Job Name            :        Si-band_5.43_GGA-PBE_
+Task                :        Property
+Basis               :        dnd                 
+Atom_Rcut           :        4.000 Angstrom
+Functional          :        pbe                 
+Harris              :        off  
+Integration Grid    :        medium              
+Kpoints             :        Si-band_5.43_GGA-PBE_.kpoints
+Occupation          :        fermi     
+Pseudopotential     :        none                
+Property            :        none                
+ 
+====================================================

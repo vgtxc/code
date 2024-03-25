@@ -1,0 +1,218 @@
+ 
+     ===============================================================
+     Materials Studio DMol^3 version 2020            
+     compiled on Oct 17 2019 19:55:04
+     ===============================================================
+ 
+     ===============================================================
+     Density Functional Theory Electronic Structure Program
+     Copyright (c) 2019, Dassault Systemes, all rights reserved.
+     Cite work using this program as: 
+     B. Delley, J. Chem. Phys. 92,  508  (1990).
+     B. Delley, J. Chem. Phys. 113, 7756 (2000).
+     DMol^3 is available as part of Materials Studio.
+     ===============================================================
+ 
+ 
+DATE:     Apr 16 16:52:56 2023
+ 
+Job started on host VGTPC
+
+This run uses   12 processors
+
+Message: License checkout of MS_dmol successful
+Message: License checkout of MS_dsolid successful
+ 
+Basis set is read from file:
+D:\sw\biovia\Materials Studio 20.1 x64 Server\share\Resources\Quantum\DMol3\BASFILE_v3.5
+
+ 
+ parallel run with  12 processors
+ 
+ no INCOOR file: try ZMAT
+ no ZMAT file: try CAR
+
+Geometry is read from file: 100Len_GGA-BOP_BandStr.car                                                                                                                                                                                                                                      
+
+INCOOR, atomic coordinates in au (for archive):
+______________________________________________________________________>8
+
+$cell vectors
+             10.26121285871519    0.00000000000000    0.00000000000000
+              0.00000000000000   10.26121285871519    0.00000000000000
+              0.00000000000000    0.00000000000000   10.26121285871519
+$coordinates
+Si            0.00000000000000    0.00000000000000    0.00000000000000
+Si            0.00000000000000    5.13060642935760    5.13060642935760
+Si            5.13060642935760    0.00000000000000    5.13060642935760
+Si            5.13060642935760    5.13060642935760    0.00000000000000
+Si            7.69590964403639    2.56530321467880    7.69590964403639
+Si            2.56530321467880    2.56530321467880    2.56530321467880
+Si            2.56530321467880    7.69590964403639    7.69590964403639
+Si            7.69590964403639    7.69590964403639    2.56530321467880
+$end
+______________________________________________________________________>8
+
+
+N_atoms =    8     N_atom_types =  1
+
+
+INPUT_DMOL keywords (for archive):
+______________________________________________________________________>8
+
+#Warning: no global confinement specs in BASFILE
+Calculate                     energy                                                                                                <--
+Scf_iterations                0                                                                                                     <--
+use_old_density_and_keep      on                                                                                                    <--
+Max_memory                    4048                                                                                                  <--
+File_usage                    smart                                                                                                 <--
+empty_bands                   12                                                                                                    <--
+                                                                                                                                    <--
+Symmetry                      on                                                                                                    <--
+                                                                                                                                    <--
+# Electronic parameters                                                                                                             <--
+Spin_polarization             restricted                                                                                            <--
+Charge                        0                                                                                                     <--
+Basis                         dnd                                                                                                   <--
+Pseudopotential               none                                                                                                  <--
+Functional                    bop                                                                                                   <--
+Aux_density                   dipole                                                                                                <--
+Integration_grid              medium                                                                                                <--
+Occupation                    fermi                                                                                                 <--
+Cutoff_Global                 4.0000 angstrom                                                                                       <--
+                                                                                                                                    <--
+# Kpoint definition file:                                                                                                           <--
+Kpoints                       file                                                                                                  <--
+ No kpoint grid information is available
+ No symmetry will be applied to the kpoints given in file
+100Len_GGA-BOP_BandStr.kpoints                                                                                                      
+                                                                                                                                    <--
+plot_dos                      on                                                                                                    <--
+______________________________________________________________________>8
+
+
+Publications of specific relevance to this calculation:
+
+Density functional:
+ B88 + Tsuneda Suzumura Hirao functional
+
+
+Fast Calculation of Electrostatics in Crystals and Large Molecules;
+ Delley: J. Phys. Chem. 100, 6107 (1996)
+
+Parallel eigenvalue solution:
+Parallel solution of partial symmetric eigenvalue problems from electronic structure calculations:
+Auckenthaler, Blum, Bungartz, et al.: Parallel Computing 37, 783 (2011)
+
+Restart of SCF calculations requested
+
+ 
+Calculation is Spin_restricted
+ 
+ 
+
+The point group of the crystal is:
+ full cubic group
+ with inversion symmetry
+
+Note: this cell has   4 times the volume of the primitive cell
+
+
+Lattice:
+ translation vector [a0]    1   10.261212859    0.000000000    0.000000000
+ translation vector [a0]    2    0.000000000   10.261212859    0.000000000
+ translation vector [a0]    3    0.000000000    0.000000000   10.261212859
+Cell volume         1080.429 a0^3
+Silicon      nbas=  1, z=  14, nrfn=  8, rcut=  7.56, e_ref= -0.039092 Ha
+                                  rcore=  0.00  zval=  14.00  14.00
+   n=1  L=0  occ= 2.00 e=     -65.456590Ha     -1781.1652eV
+   n=2  L=0  occ= 2.00 e=      -5.057512Ha      -137.6220eV
+   n=2  L=1  occ= 6.00 e=      -3.474179Ha       -94.5373eV
+   n=3  L=0  occ= 2.00 e=      -0.364034Ha        -9.9059eV
+   n=3  L=1  occ= 2.00 e=      -0.114206Ha        -3.1077eV
+   n=3  L=0  occ= 0.00 e=      -1.041696Ha       -28.3460eV
+   n=3  L=1  occ= 0.00 e=      -0.747798Ha       -20.3486eV
+   n=3  L=2  occ= 0.00 e=      -1.999965Ha       -54.4218eV
+
+Kpoints and weights given in KPOINTS file:
+________________________________________________________________________>8
+
+Parameters for generating k-points:   0   0   0        0.00      0.00      0.00        0
+$reciprocal sampling points and weights                                         
+0.5000000000 0.0000000000 0.0000000000 0.0476190476                             
+0.5000000000 0.1000000000 0.1000000000 0.0476190476                             
+0.5000000000 0.2000000000 0.2000000000 0.0476190476                             
+0.5000000000 0.3000000000 0.3000000000 0.0476190476                             
+0.5000000000 0.4000000000 0.4000000000 0.0476190476                             
+0.5000000000 0.5000000000 0.5000000000 0.0952380952                             
+0.5000000000 0.5000000000 0.3750000000 0.0476190476                             
+0.5000000000 0.5000000000 0.2500000000 0.0476190476                             
+0.5000000000 0.5000000000 0.1250000000 0.0476190476                             
+0.5000000000 0.5000000000 0.0000000000 0.0476190476                             
+0.4000000000 0.4000000000 0.0000000000 0.0476190476                             
+0.3000000000 0.3000000000 0.0000000000 0.0476190476                             
+0.2000000000 0.2000000000 0.0000000000 0.0476190476                             
+0.1000000000 0.1000000000 0.0000000000 0.0476190476                             
+0.0000000000 0.0000000000 0.0000000000 0.0476190476                             
+0.0833333333 0.0833333333 0.0833333333 0.0476190476                             
+0.1666666667 0.1666666667 0.1666666667 0.0476190476                             
+0.2500000000 0.2500000000 0.2500000000 0.0476190476                             
+0.3333333333 0.3333333333 0.3333333333 0.0476190476                             
+0.4166666667 0.4166666667 0.4166666667 0.0476190476                             
+$end
+
+Warning: no tetrahedra given
+________________________________________________________________________>8
+Total number of symmetry-unique k points:      20
+Total number of symmetry-unique tetrahedra:       0
+
+
+Symmetry orbitals C1                            
+    n  norb    representation
+    1   144        a    
+  total number of valence orbitals:    144
+
+ cell charge=              0.000000   active electron number     112.0
+ (without charge=             112.0 )
+ 
+
+ real array elements, matrices vectors etc:       8.3 MB 
+ integer arrays                           :       0.2 MB 
+ min recommended for all-incl workspace   :      10.6 MB 
+Total memory allocated for arrays         :      38.2 MB 
+Memory for temporary file storage on disk :       7.2 MB
+Total memory allocated                    :      45.3 MB
+Max memory requested                      :    4048.0 MB
+Message: SCF converged
+
+
+Fermi Energy:           -0.130610 Ha     -3.554 eV 
+DFT energy gap:          0.067838 Ha      1.846 eV
+valence band edge:      -0.162530 Ha     -4.423 eV
+conduction band edge:   -0.094692 Ha     -2.577 eV
+
+Energy components:
+   Sum of atomic energies =    -2314.8898341Ha
+                  Kinetic =       -1.3660727Ha
+            Electrostatic =       -0.7139816Ha
+     Exchange-correlation =        0.6361922Ha
+        Spin polarization =        0.3127399Ha
+       Jellium correction =        0.0000078Ha
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -2316.020956Ha        -1.1311222Ha      6.91E-02     0.0m      1
+
+df  binding energy      -1.1311222Ha         -30.77941eV        -709.804kcal/mol
+
+ +++ Entering Properties Section +++ 
+
+
+Fermi energy:   -0.130610   -0.130610   -0.130610
+Message: License checkin of MS_dmol successful
+Message: License checkin of MS_dsolid successful
+
+Message: DMol3 job finished successfully
+
+ time all done       0.01m        0.87s
+
+DMol3.pl message: DMol3 job finished in 0 hr 0 min 18 sec.

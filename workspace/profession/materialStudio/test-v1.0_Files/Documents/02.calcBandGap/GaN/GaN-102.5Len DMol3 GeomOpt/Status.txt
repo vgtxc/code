@@ -1,0 +1,17 @@
+====================================================
+                  DMol3 Run Status                  
+====================================================
+ 
+Job Name            :        GaN-102.5Len
+Task                :        Property
+Basis               :        dnd                 
+Atom_Rcut           :        4.200 Angstrom
+Functional          :        blyp                
+Harris              :        off  
+Integration Grid    :        medium              
+Kpoints             :        GaN-102.5Len.kpoints
+Occupation          :        fermi     
+Pseudopotential     :        none                
+Property            :        none                
+ 
+====================================================

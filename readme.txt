@@ -1,22 +1,48 @@
-# code
-	学习代码,文件
+//lastEdit=>2024.03.26-15:48
 
-## lang->编程语言学习
-	clang:		c语言
-	frontEnd:	html,jss,css等前后端
-	golang:		go语言
-	python:		python
-	vgtLib:		常用代码的自定义库
+imp->文件夹目录及功能说明
+根目录
+	|-src;			@->资源目录, 存放说明文档与其它非工程文件
+	|---|---doc;	@->文档目录, 存放文档说明笔记等
+	|---|---img;	@->图片目录, 存放测试图片
+	|-work;			@->工作目录, 存放代码与专业软件工程文件
+	|---|---lang;	@->程序源码
+	|---|---profession;	@->专业软件
+	|---|---project;	@->实战测试
+	|-tmp;				@->临时目录, 存放临时代码
 
-## osAndsw
-	software:	一些开源软件命令行软件的学习文档
-	system:		系统底层相关知识,内存/文件/通信等
-	vos:		自编操作系统
+imp->文件后缀名及说明
+	程序源码文件
+	|-clang
+	|---"*.c":c语言源码
+	|---"*.cpp":c++语言源码
+	专业工程文件
+	|-solidwork
+	|---"*.step":零件
+	|---"*.sldasm":装配体
 
-## profession->专业软件学习
-	cad
-	origin
-	material studio
-	ps
-
-## workspace->工作空间,一些近期的代码
+imp->编程学习路径
+	|-基础
+	|---01.HelloWord
+	|---02.inAndOut#输入输出
+	|---03.dataType#数据类型
+	|---04.judgeAndloop#判断与循环语句
+	|---05.funcAndArg#函数及参数
+	|---05.01.环境参数获取
+	|---05.02.系统命令调用
+	|---06.regExp#正则表达式
+	|---07.fileOpt#文件操作
+	|---08.libAndpack#库与包
+	|---09.protocol#协议
+	|---09.01.http
+	|---09.02.mysql#数据库
+	|---09.03.redis#数据库
+	|---实例
+	|---demo-01.九九乘法表
+	|---demo-02.猜数游戏
+	|---demo-03.成绩管理系统
+	|---demo-04.贪吃蛇
+	|-进阶(网络)
+	|---10.thread#多线程
+	|---11.network#网络
+	|---12.framework#框架

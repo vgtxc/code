@@ -1,7 +1,0 @@
-//lastEdit=>2023.04.13
-
-// 各种系统自带的好好用系统工具
-
-//win
-	win11手写输入/触摸键盘:
-		C:\Program Files\Common Files\microsoft shared\ink\TapTip.exe

@@ -1,3 +1,4 @@
+# lastEdit=>2024.03.26-15:52
 # 其它子文件创建的git仓库
 
 # 不忽略本文件夹下的.git
@@ -11,6 +12,5 @@ node_modules
 __pycache__
 
 # 忽略.git
-.github
 .git
 

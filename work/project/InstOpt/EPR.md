@@ -43,12 +43,12 @@
     - ***Control Panel for Spectrometer on localhost***面板, 位于整个窗口***下***侧;
     - ***Microwave Bridge Tuning***面板, 位于整个窗口***右***侧;
         - 通过点击下面版Stand by左上方的小方块打开
-        <img src="./EPR/son01/02.打开microwave面板-out.jpg" alt="替代文本" width="100" height="100" style="display: block; margin: auto">
+        <img src="./EPR/02.打开microwave面板-out.jpg" alt="替代文本" width="100" height="100" style="display: block; margin: auto">
 - 06.01.导入测试参数;
     - (01)打开旧测试文件: *File->open->Home/DATA/ZhangTianJin/\<xxx\>*
     - (02)点击:**Copy spectrum parameters to hardware**;
         - 通过点击下面版Stand by右上方的小方块打开
-        <img src="./EPR/son01/01.复制参数-out.jpg" alt="替代文本" width="100" height="100" style="display: block; margin: auto">
+        <img src="./EPR/01.复制参数-out.jpg" alt="替代文本" width="100" height="100" style="display: block; margin: auto">
 - 06.02.检查测试参数: **Field Sweep**面板
     - *Center Field [G]*: 中心磁场值
     - *Sweep Width [G]*: 扫描磁场宽度
@@ -57,14 +57,14 @@
     - (01)自动协调: **Microwave Bridge Tunning**面板
 	    - *Phase*栏: 点击*Tune*, 等待中心峰稳定;
 	    - *Auto Tuning*栏: 点击*up*, 等待中心峰稳定;
-        <img src="./EPR/son01/03.加磁测试-out.jpg" alt="替代文本" width="100" height="100" style="display: block; margin: auto">
+        <img src="./EPR/03.加磁测试-out.jpg" alt="替代文本" width="100" height="100" style="display: block; margin: auto">
     - (02)手动操作: "Microwave Bridge Tunning"面板
 	    - Iris:调节"Diode Current"(整个窗口下方右侧表盘), 示数[190,210uA], 最好为200uA;
-        <img src="./EPR/son01/05.二极管电流-调试-out.jpg" alt="替代文本" width="100" height="40" style="display: block; margin: auto">
-        <img src="./EPR/son01/05.二极管电流-out.jpg" alt="替代文本" width="100" height="100" style="display: block; margin: auto">
+        <img src="./EPR/05.二极管电流-调试-out.jpg" alt="替代文本" width="100" height="40" style="display: block; margin: auto">
+        <img src="./EPR/05.二极管电流-out.jpg" alt="替代文本" width="100" height="100" style="display: block; margin: auto">
 	    - Frequency:调节"Lock Offset"(整个窗口下方右侧表盘), 示数[-10,10%], 最好为0%;
-        <img src="./EPR/son01/06.频率偏移-调试-out.jpg" alt="替代文本" width="100" height="40" style="display: block; margin: auto">
-        <img src="./EPR/son01/06.频率偏移-out.jpg" alt="替代文本" width="100" height="100" style="display: block; margin: auto">
+        <img src="./EPR/06.频率偏移-调试-out.jpg" alt="替代文本" width="100" height="40" style="display: block; margin: auto">
+        <img src="./EPR/06.频率偏移-out.jpg" alt="替代文本" width="100" height="100" style="display: block; margin: auto">
 - 06.04.imp->检查参数:
     - (01)"Field Sweep"面板:
 	    - *Receiver Gain[dB]*: ***示数[30,60dB], 一般为30dB***;
@@ -73,24 +73,24 @@
 	    - *Mode*: 采样模式, 一般选为***Manual***模式;
     - (02)"Microwave Bridge Tuning"面板:
 	    - 确保"Attenuation[dB]"***示数[30,60dB], 一般为30dB***;
-        <img src="./EPR/son01/04.参数检查-out.jpg" alt="替代文本" width="100" height="40" style="display: block; margin: auto">
+        <img src="./EPR/04.参数检查-out.jpg" alt="替代文本" width="100" height="40" style="display: block; margin: auto">
     - (03)"Control Panel for Spectrometer on localhost"面板:
 	    - 确保"Operate"为绿色;
 	    - 确保"Levelled"为绿色;
 	    - 确保"Calibrated"为绿色;
 	    - 确保"Field[G]"为绿色;
-        <img src="./EPR/son01/07.准备就绪-out.jpg" alt="替代文本" width="400" height="100" style="display: block; margin: auto">
+        <img src="./EPR/07.准备就绪-out.jpg" alt="替代文本" width="400" height="100" style="display: block; margin: auto">
 - 06.05.点击"Run"扫描
-    <img src="./EPR/son01/08.运行-out.jpg" alt="替代文本" width="100" height="100" style="display: block; margin: auto">
+    <img src="./EPR/08.运行-out.jpg" alt="替代文本" width="100" height="100" style="display: block; margin: auto">
 - 06.06.数据保存:
     - (01)**Save to Disk**面板, 确保文件名上下一致, 等待扫描线变红色;
     - (02)菜单栏:**File->export to ASCII**;
 ###### 07.取样,扫空腔:
 - 07.01."Microwave Bridge Tuning"面板:
     - (01)由Operate-> 点击*Tune*,***等待10s*** ->点击*Stand By*,等待1min;
-    <img src="./EPR/son01/09.退磁取样-out.jpg" alt="替代文本" width="100" height="100" style="display: block; margin: auto">
+    <img src="./EPR/09.退磁取样-out.jpg" alt="替代文本" width="100" height="100" style="display: block; margin: auto">
     - (02)等待面板中"Frequency", "Bias", "Signal Phase"选项***全为灰色***;
-    <img src="./EPR/son01/10.全为灰色-out.jpg" alt="替代文本" width="100" height="100" style="display: block; margin: auto">
+    <img src="./EPR/10.全为灰色-out.jpg" alt="替代文本" width="100" height="100" style="display: block; margin: auto">
 - 07.02.取样, 盖盖子
 - 07.03.扫描空腔:"Microwave Bridge Tuning"面板
     - (01)点击Tune, 等待中心峰稳定;

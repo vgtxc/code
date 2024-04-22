@@ -1,0 +1,29 @@
+//lastEdit=>2024.04.22-14:23
+
+学习路径:
+	01.helloWord.py
+	02.dataType#数据类型.py
+		|-数值
+		|-字符
+		|-列表
+		|-字典
+	03.func#函数.py
+	04.clas#类对象.py
+		|-类对象
+		|-类对象-魔法方法
+		|-实例对象
+		|-实例对象-方法
+	05.01.lib-string#字符串.py
+	05.02.lib-sysInter#系统交互.py
+	05.03.lib-file#文件.py
+	05.04.lib-regex#正则.py
+	05.05.lib-thread#多线程.py
+	06.multiFile#多文件.py
+	07.01.decorator#装饰器.py
+	07.02.closure#闭包.py
+	demo-01.miniWebServer#迷你服务器.py
+		|-传输协议:http
+		|-链接协议:tcp,udp
+	demo-02.frame-django#框架.py
+		|-框架组成
+		|-框架功能

@@ -1,7 +1,8 @@
-#include <stdio.h>
+//lastEdit=>2024.04.24-20:55
 
-void main()
-{
-	printf("Hello Word!\n");
-	¿ä¿Ë; 
+#include<stdio.h>
+
+int main(){
+	printf("%s\n", "hello Word!!!");
+	return 0;
 }

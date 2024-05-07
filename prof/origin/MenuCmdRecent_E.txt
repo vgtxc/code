@@ -1,5 +1,0 @@
-﻿[Ver]
-34
-[WksPlotMenuMRUList]
-Version = 2
-1 = {"33249","","Line"}

@@ -1,5 +1,0 @@
-[Ver]
-29
-[WksPlotMenuMRUList]
-Version = 1
-1 = 33249|Line
